@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" class="css" />
+    <!-- <link rel="stylesheet" href="media.css" class="css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-card">
+        <div class="input-field">
+          <div class="enter-loc">
+            <input class="loc-name" placeholder="Enter Location" />
+            <button class="btn1">
+              <img
+                class="search-icon"
+                src="Icons\magnifiying-glass_93642.png"
+                alt="search"
+              />
+            </button>
+          </div>
+        </div>
+
+        <hr />
+        <div class="weather-info">
+          <div class="location-name">
+            <h1 class="update-loc"></h1>
+          </div>
+
+          <div class="date-time">
+            <span class="location">
+              <img
+                class="small-location"
+                src="Icons\map-spot_82169.png"
+                alt="loca"
+              />
+              <h4 class="update-loc1">Dausa</h4>
+            </span>
+            <span class="date">
+              <img
+                class="date-icon"
+                src="Icons\calendar-regular.svg"
+                alt="loca"
+              />
+              <h4 class="time"></h4>
+              <br />
+
+              <h4 class="Date"></h4>
+            </span>
+          </div>
+          <div class="temp-cloud">
+            <span class="tempcount">
+              <h1 class="temp">30°C</h1>
+            </span>
+            <span class="cloudyimg">
+              <img class="cloud" src="Icons/cloudy.png" alt="cloud"/>
+            </span>
+          </div>
+
+          <div class="humidity-wind">
+            <span class="firstL">
+              <h1 class="weather-nature">Cloudy</h1>
+              <h5 class="hum">Humidity : 50%</h5>
+              <h5 class="wind">Wind Speed : 10 km/h</h5>
+            </span>
+            <span class="secondR">
+              <h3 class="visi">Visibility : 5 km</h3>
+              <br />
+              Driving Difficulty : None
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
